@@ -20,7 +20,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />}>
+        <Route path="customer-work-orders" element={<App />}>
           <Route index element={<CalendarView />} />
           <Route path="boatyard/:boatyard" element={<Boatyard />} />
           <Route path="work-orders" element={<WorkOrders />} />

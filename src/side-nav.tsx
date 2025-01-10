@@ -11,7 +11,7 @@ const items: MenuItem[] = [
     key: "1a",
     icon: <HomeFilled />,
     label: (
-      <NavLink to="/" end>
+      <NavLink to="/customer-work-orders" end>
         Home
       </NavLink>
     ),
@@ -76,7 +76,7 @@ const items: MenuItem[] = [
     key: "10",
     icon: <SettingOutlined />,
     label: (
-      <NavLink to="/work-orders" end>
+      <NavLink to="work-orders" end>
         Work Orders
       </NavLink>
     ),
