@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/customer-work-orders/static/css/main.f855e6bc.css",
+    "main.js": "/customer-work-orders/static/js/main.aec1f1dc.js",
+    "index.html": "/customer-work-orders/index.html",
+    "main.f855e6bc.css.map": "/customer-work-orders/static/css/main.f855e6bc.css.map",
+    "main.aec1f1dc.js.map": "/customer-work-orders/static/js/main.aec1f1dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.aec1f1dc.js"
+  ]
+}
