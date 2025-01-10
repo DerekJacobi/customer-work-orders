@@ -1,6 +1,7 @@
 {
   "name": "work-orders",
   "version": "0.1.0",
+  "homepage": "https://derekjacobi.github.io/customer-work-orders/",
   "private": true,
   "dependencies": {
     "antd": "^5.23.0",
@@ -14,6 +15,8 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,5 +44,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
